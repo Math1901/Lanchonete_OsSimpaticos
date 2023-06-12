@@ -1,0 +1,20 @@
+body{
+    background-color: #FF4D4D;
+}
+
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.endereco{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFECCE;
+    margin: 1rem auto 0 auto;
+    width: 60%;
+    padding: 1rem;
+    /* height: 500px; */
+    border-radius: 2rem;
+}

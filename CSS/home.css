@@ -1,0 +1,102 @@
+body{
+	background: #FF4D4D;
+
+}
+main{
+	/* background: url(../img/banner.jpg); */
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	/* background: #FFECCE; */
+	width: 70%;
+	margin: 0 auto;
+}
+.boas-vindas{
+	text-align: center;
+	background: #FF4D4D;
+	margin-top: 40px;
+}
+.boas-vindas__title{
+	font-size: 3.5rem;
+}
+
+.boas-vindas__image{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+}
+
+.historia{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: #FFECCE;
+    padding: 10px;
+}
+
+.historia__box{
+	/* border: 5px solid #000; */
+	/* border-radius: 20px; */
+	padding: 10px;
+    text-align: center;
+}
+
+.historia__titulo-principal{
+	text-align: center;
+	font-size: 50px;
+}
+
+.historia__text{
+    font-size: 1.5rem;
+    text-align: justify;
+	line-height: 1.4em;
+    padding: 1rem;
+}
+
+
+#missao {
+	font-size: 25px
+}
+em strong {
+	color: #FF0000;
+}
+
+
+.beneficios {
+	background: #FFECCE;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0 auto;
+    padding: 10px;
+	
+}
+.beneficios__container{
+	text-align: center;
+}
+
+.beneficios__lista {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.beneficios__titulo{
+	text-align: center;
+	font-size: 50px;
+	padding: 10px;
+}
+
+.beneficios__item {
+	display: flex;
+	font-style: italic;
+	text-align: center;
+	font-size: 1.5rem;
+
+}
+.beneficios__imagem{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+}
